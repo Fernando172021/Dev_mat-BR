@@ -1,0 +1,13 @@
+@Projeto:
+  
+  -Inicial: Fornecer serviços de calculos para tipos variados de clientes (Tanto no própio site quanto em API),
+            alem de servir conhecimento gratuito para quem estiver interessado.
+
+@Estrutura do Site:
+
+  -01: Pagina Index como inicialização e apresentação do site, incluindo tela de log-in.
+  -02: Pagina pós log-in no qual sera exibido as escolhas principais em grandes botões.
+  -03: Para cada botão uma pagina nova sera exibida com a opção escolhida
+
+@Estilo do site:
+
