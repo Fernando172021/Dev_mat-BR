@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, black, black, black);
+}
+
+main {
+    background-image: url(aurora_sky-wallpaper-3840x2160.jpg);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+}
+
+#botao {
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px white;
+    background-color: black;
+}
