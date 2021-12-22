@@ -1,6 +1,18 @@
 body{
     background-color:rgb(0, 0, 0);
 }
+p{
+    font: normal;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h2{
+    font: normal;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    font: normal;
+    font-family:Arial, Helvetica, sans-serif;
+}
 #titulo{
    color: rgb(0, 0, 0);
    font: normal;
@@ -17,3 +29,27 @@ body{
    text-align: center;
    background-color: rgb(203, 206, 218);
 }
+#cabeçalho{
+   line-height: 50px;
+   text-align:center;
+   background-color: rgb(203, 206, 218);
+}
+#cabeçalho_log{
+   top: 10px;
+   line-height: 50px;
+   width: 1310px;
+   height: 590px;
+   background-color: rgb(203, 206, 218);
+   text-align: center;
+}
+#form_log{
+   top: 10px;
+   line-height: 99px;
+   background-color:rgb(0, 0, 0);
+   border-radius: 60px;
+   width: 510px;
+   height: 200px;
+   font: normal;
+   font-family:Arial, Helvetica, sans-serif;
+   color:rgb(255, 255, 255);
+}  
