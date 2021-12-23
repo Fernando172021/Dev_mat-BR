@@ -5,7 +5,37 @@
 }
 
 body {
-    background-image: linear-gradient(to right, black, black, black);
+    background-image: linear-gradient(to right, #19026d, #000203, #19026d);
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+
 }
 
 main {
@@ -17,9 +47,10 @@ main {
 }
 
 #botao {
-    font-size: 25px;
+    font-size: 30px;
     border-radius: 10px;
+    font-weight: bold;
     color: white;
-    text-shadow: 1px 1px 2px white;
-    background-color: black;
+    text-shadow: 2px 2px 4px black;
+    background-color: rgba(0, 0, 0, 0.39);
 }
