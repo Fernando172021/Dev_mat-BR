@@ -18,8 +18,20 @@ body {
     margin: 0;
 }
 
-/* Informaões iniciais */
+/* CONTEÚDO PRINCIPAL DO SITE */
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
 
+.conteudo-principal-escrito-titulo {
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+}
 
 .center {
     display: flex;
@@ -67,6 +79,7 @@ body {
     margin-right: 20px;
 }
 
+/* CONTEÚDO COM O VÍDEO É ALGUMAS INFORMAÇÕES. */
 main {
     background-image: url(midia/imagens/aurora_sky-wallpaper-3840x2160.jpg);
     text-align: center;
