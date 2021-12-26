@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 :root{
     --cor-body: linear-gradient(to right, #19026d, #000203, #19026d);
     --cor-branco: #ffff;
@@ -16,6 +18,9 @@ body {
     margin: 0;
 }
 
+/* Informaões iniciais */
+
+
 .center {
     display: flex;
     flex-wrap: wrap;
@@ -23,7 +28,7 @@ body {
     height: 120px;
     line-height: 0px;
     border-radius: 5px;
-    margin-bottom: 300px;
+    margin-bottom: 50px;
     background: var(--cor-cabeçalho);
     align-items:center;
 }
