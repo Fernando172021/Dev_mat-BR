@@ -1,7 +1,4 @@
 @charset "UTF-8";
-
-
-
 :root{
     --cor-body: linear-gradient(to right, #19026d, #000203, #19026d);
     --cor-branco: #ffff;
@@ -37,7 +34,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: flex;
-    height: 120px;
+    height: 100px;
     line-height: 0px;
     border-radius: 5px;
     margin-bottom: 50px;
@@ -46,11 +43,11 @@ body {
 }
 
 .fantasia{
-    position: absolute; top: 10px; left: 140px;
+    position: absolute; top: 25px; left: 140px;
     margin: 0;
     padding: 0;
     width: 250px;
-    line-height: 100px;
+    line-height: 50px;
     border-radius: 10px;
     background-color: rgb(68, 89, 116);
     color: var(--cor-branco);
