@@ -10,7 +10,7 @@
     --cor-cabeçalho: linear-gradient(360deg, #067bbe, #348abd, #0a7bbd, rgb(38, 113, 156)); 
 }
 
-/* HEADER DO SITE (CABEÇALHO) */
+/*HEADER DO SITE (CABEÇALHO)*/
 .cabeçalho {
     display: flex;
     flex-wrap: wrap;
