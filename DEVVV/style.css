@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-
+* {
+    font-family: sans-serif;
+}
 
 :root{
     --cor-body: linear-gradient(to right, #19026d, #000203, #19026d);
@@ -8,32 +10,8 @@
     --cor-cabeçalho: linear-gradient(360deg, #067bbe, #348abd, #0a7bbd, rgb(38, 113, 156)); 
 }
 
-* {
-    font-family: sans-serif;
-}
-
-body {
-    background-image: var(--cor-body);
-    padding: 0;
-    margin: 0;
-}
-
-/* CONTEÚDO PRINCIPAL DO SITE */
-.conteudo-principal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-bottom: 30px;
-    justify-content: space-around;
-}
-
-.conteudo-principal-escrito-titulo {
-    color: white;
-    font-weight: bold;
-    font-size: 55px;
-}
-
-.center {
+/* HEADER DO SITE (CABEÇALHO) */
+.cabeçalho {
     display: flex;
     flex-wrap: wrap;
     width: flex;
@@ -42,10 +20,15 @@ body {
     border-radius: 5px;
     margin-bottom: 50px;
     background: var(--cor-cabeçalho);
-    align-items:center;
+    align-items: center;
 }
 
-.fantasia{
+.cabeçalho-logo {
+    position: absolute; left: 15px;
+    width: 50%;
+}
+
+.cabeçalho-nome{
     position: absolute; top: 10px; left: 140px;
     margin: 0;
     padding: 0;
@@ -60,11 +43,7 @@ body {
     text-align: center;
 }
 
-.logo {
-    position: absolute; left: 15px;
-    width: 50%;
-}
-.menu {
+.cabeçalho-navegacao {
     position: absolute; left: 650px; top: 50px;
     padding-top: 30px;
     width: 50%;
@@ -72,15 +51,16 @@ body {
     font-size: 18px;
 }
 
-.menu a {
+.cabeçalho-navegacao a {
     color: var(--cor-branco);
     text-decoration: none;
     font-weight: bold;
     margin-right: 20px;
 }
+/* FIM DO HEADER (CABEÇALHO)*/
 
-/* CONTEÚDO COM O VÍDEO É ALGUMAS INFORMAÇÕES. */
-main {
+/* CONTEÚDO COM VÍDEO DE BOAS-VINDAS */
+.boas-vindas {
     background-image: url(midia/imagens/aurora_sky-wallpaper-3840x2160.jpg);
     text-align: center;
     color: var(--cor-branco);
@@ -88,7 +68,17 @@ main {
     box-shadow: 5px 5px 15px;
 }
 
-#botao {
+.boas-vindas-titulo {
+    color: white;
+    font-size: 2em;
+}
+
+.boas-vindas-subtitulo {
+    color: white;
+}
+
+.boas-vindas-botao {
+    cursor: pointer;
     font-size: 30px;
     border-radius: 10px;
     font-weight: bold;
@@ -96,3 +86,55 @@ main {
     text-shadow: 2px 2px 4px black;
     background-color: rgba(0, 0, 0, 0.39);
 }
+/* FIM DO CONTEÚDO DE BOAS VINDAS */
+
+main {
+    background-attachment: fixed;
+}
+
+.arsenal {
+    background-image: linear-gradient(to right, #64636377, #2827298a, #0000006e);
+    border-radius: 12px;
+    box-shadow: 5px 5px  5px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+body {
+    background-image: var(--cor-body);
+    padding: 0;
+    margin: 0;
+}
+
+/* CONTEÚDO COM A FRASE MOTIVACIONAL */
+.conteudo {
+    background-image: url(midia/imagens/fndo-montanha-v2.jpg);
+
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito-titulo {
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    color: white;
+    text-align: center;
+}
+/* FIM DO CONTEÚDO COM A FRASE MOTIVACIONAL */
+
+
+

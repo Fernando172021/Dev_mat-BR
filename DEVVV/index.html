@@ -10,50 +10,56 @@
      <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
  </head>
 
- <!-- HEADER do Site -->
+ <!-- CABEÇALHO do site -->
  <body>
-     <div>
-        <span class="center">
-             <div class="logo"><img src="midia/imagens/logo_02.png" width="100px"></div><!--Logo-->
-             <div class="fantasia">HELPMAP</div>
-             <div class="menu">
+     <header>
+        <nav class="cabeçalho">
+             <div class="cabeçalho-logo"><img src="midia/imagens/logo_02.png" width="100px"></div><!--Logo-->
+             <div class="cabeçalho-nome">HELPMAP</div>
+             <div class="cabeçalho-navegacao">
                  <a href="#">Início</a>
                  <a href="#">Quem somos?</a>
                  <a href="#">Notas de Atualizações</a>
                  <a href="#">Manual da Matemática</a>
              </div><!--Menu-->
-         </span><!--center-->
-     </div>
+         </nav><!--center-->
+     </header>
+     
+    <!-- ÍNICIO COM VÍDEO DE BOAS VINDAS -->
+    <main class="boas-vindas">
+        <section>
+            <div class="boas-vindas-principal">
+                <br>
+                <h1 class="boas-vindas-titulo">O Futuro da matemática está em suas mãos!</h1>
+                <h2 class="boas-vindas-subtitulo"><em>Vamos começar a sua jornada?</em></h2>
+                <div class="boas-vindas-video"><!-- VÍDEO DO YOUTUBE-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/X7jKb7sUDAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <button class="boas-vindas-botao">Acessar o mundo da matemática</button>
+            </div>
+        </section>
+    </main>     
+     
+    <!-- Infos sobre a HELPMAP -->
+     <main class="arsenal">
+        <img src="midia/imagens/pedra-ou-diamante.png" width="200px" alt="">
+         <h1> <em>Calculos na palma da sua mão!</em> </h1>
+         <p>HelpMap oferece para você uma arsenal de ferramentas para os mais diversos tipos de calculos.</p>
+     </main>
 
-     <!-- Conteúdo principal contendo: imagem, textos, frases. -->
+     <!-- CONTEÚDO COM A FRASE MOTIVACIONAL -->
      <main class="conteudo">
         <section>
             <div class="conteudo-principal">
-                <img class="conteudo-principal-imagem" src="midia/imagens/nasa-logo.png" width="300px" alt="Imagem da nasa">
+                <img class="conteudo-principal-imagem" src="midia/imagens/pessoas.png.png" width="400px" alt="Imagem da nasa">
                 <div class="conteudo-principal-escrito">
                 <h1 class="conteudo-principal-escrito-titulo">HELPMAP</h1>
-                <h2 class="conteudo-principal-escrito-subtitulo"><em>"Para ter sucesso é necessário amar de verdade o que se faz." <br> ~Steve Jobs</em></h2>
+                <h2 class="conteudo-principal-escrito-subtitulo"><em>"Para ter sucesso é necessário amar de verdade o que se faz." <br> ~ Steve Jobs</em></h2>
             </div>
         </section>
     </main>
-    <!-- FIM do conteúdo principal. -->
+    
 
-    <!-- ínicio do conteúdo secundário. (Irá ser editado) -->
-     <main>
-         <br>
-         <h1>O Futuro da matemática está em suas mãos!</h1>
-         <h2><em>Vamos começar a sua jornada?</em></h2>
-         <!-- VÍDEO DO YOUTUBE-->
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/X7jKb7    sUDAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <br>
-         <br>
-         <br>
-         <button id="botao">
-         Acessar o mundo da matemática
-         </button>
-         <br>
-         <br>
-     </main>
  </body>
 
 </html>
