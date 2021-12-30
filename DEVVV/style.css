@@ -45,10 +45,12 @@
 
 .cabeçalho-navegacao {
     position: absolute; left: 650px; top: 50px;
-    padding-top: 30px;
+    padding-top: 0%;
     width: 50%;
     text-align: right;
     font-size: 18px;
+    text-decoration: underline;
+    color: white;
 }
 
 .cabeçalho-navegacao a {
