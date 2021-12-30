@@ -91,7 +91,7 @@
 /* FIM DO CONTEÚDO DE BOAS VINDAS */
 
 main {
-    background-attachment: fixed;
+    background-attachment: fixed; /* Para deixar a rolagem com "efeito" */
 }
 
 .arsenal {
